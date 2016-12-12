@@ -7,6 +7,8 @@ public class GameFactory implements IGameFactory {
 	 * Returns an array with names of games this factory can create. Used by GUI
 	 * list availible games.
 	 */
+	//
+	
 	@Override
 	public String[] getGameNames() {
 		return new String[] { "Gold"};
